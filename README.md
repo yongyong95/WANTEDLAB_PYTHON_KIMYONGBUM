@@ -30,6 +30,7 @@ pythonpath = app
 DB_URL=sqlite:///wantedlab.db \
 uvicorn --host 0.0.0.0 --port 8000 --reload app.main:app
 ```
+```
 [Docker]
 docker login
 docker build --platform linux/arm64 -t wantedlab-company-kimyongbum -f Dockerfile .
