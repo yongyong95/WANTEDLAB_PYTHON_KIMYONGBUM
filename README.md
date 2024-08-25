@@ -1,5 +1,5 @@
 # REPOSITORY_NAME
-...
+WANTEDLAB_PYTHON_KIMYONGBUM (ASSIGNMENT)
 
 # PYTHON VERSION
 ```
@@ -37,7 +37,9 @@ docker-compose up
 
 ```
 
-# API 명세 (Swagger 문서는 로컬 실행후 `http://localhost:8000/docs` 브라우저 통해 확인 가능)
+# API 명세
 ```
-https://everlasting-door-b42.notion.site/Company-API-3988e2c177e449cdaf2296dab247aa6a
+url: https://everlasting-door-b42.notion.site/Company-API-3988e2c177e449cdaf2296dab247aa6a
+
+(Swagger 문서는 로컬 실행후 `http://localhost:8000/docs` 브라우저 통해 확인 가능)
 ```
