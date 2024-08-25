@@ -28,8 +28,7 @@ pythonpath = app
 ```
 [Shell]
 DB_URL=sqlite:///wantedlab.db \
-uvicorn --host 0.0.0.0 --port 8000 --workers=4 --reload app.main:app
-```
+uvicorn --host 0.0.0.0 --port 8000 --reload app.main:app
 ```
 [Docker]
 docker login
