@@ -1,0 +1,12 @@
+version: "3.11"
+
+services:
+  wantedlab-company-kimyongbum:
+    image: wantedlab-company-kimyongbum
+    command: uvicorn --host 0.0.0.0 --port 8000 --workers=4 --reload app.main:app
+    ports:
+      - 8000:8000
+    volumes:
+      - ./apps:/code/apps
+    environment:
+      - DB_URL=sqlite:///wantedlab.db
